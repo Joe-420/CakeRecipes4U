@@ -1,0 +1,37 @@
+body {
+  background-image: url("white gradient.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin: 0px;
+  color: red;
+  font-family: lobster;
+  font-size: 750%;
+  text-align: center;
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #b44d4b;
+  font-family: lobster;
+  font-size: 250%;
+}
+
+.flex-container {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container-2 {
+  font-size: 200%;
+  display: flex;
+  color: black;
+  font-family: lobster;
+  justify-content: space-around;
+}
