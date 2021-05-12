@@ -4,17 +4,17 @@ body {
   background-size: cover;
 }
 
-@font-face {
+#font-face {
   font-family: indie;
   src: url(indieflower-regular.ttf);
 }
 
-@font-face {
+#font-face {
   font-family: rale;
   src: url(raleway-variablefont_wght.ttf);
 }
 
-@font-face {
+#font-face {
   font-family: goblin;
   src: url(goblinone-regular.ttf);
 }
