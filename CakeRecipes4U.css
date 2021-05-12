@@ -1,28 +1,12 @@
 body {
-  font-family: lobster;
   background-image: url("white gradient.jpg");
   background-size: cover;
 }
 
-@font-face {
-  font-family: indie;
-  src: url(indieflower-regular.ttf);
-}
-
-@font-face {
-  font-family: rale;
-  src: url(raleway-variablefont_wght.ttf);
-}
-
-@font-face {
-  font-family: goblin;
-  src: url(C:\Users\marco\OneDrive\Documents\GoblinOne-Regular.ttf);
-}
-
 h1 {
   margin: 0px;
-  color: #2f7ed0;
-  font-family: indie;
+  color: #0003ff;
+  font-family: Indie Flower;
   font-size: 750%;
   text-align: center;
 }
@@ -33,28 +17,13 @@ h2 {
   margin-bottom: 50px; 
   margin-left: 10px; 
   margin-right: 10px; 
-  color: #4d85b2; 
-  font-family: rale; 
+  color: #436abc; 
+  font-family: Indie Flower; 
   font-size: 250%;
 }
 
-.flex-container {
-  margin-top: 100px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.flex-container-2 {
-  font-size: 200%;
-  display: flex;
-  color: black;
-  font-family: lobster;
-  justify-content: space-around;
-}
-
 .carousel-inner {
-  font-family: goblin;
+  font-family: Goblin One;
   margin-left: 500px;
   margin-right: 200px;
   width: 300px;
