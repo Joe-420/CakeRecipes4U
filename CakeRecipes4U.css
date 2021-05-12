@@ -1,23 +1,40 @@
 body {
+  font-family: lobster;
   background-image: url("white gradient.jpg");
   background-size: cover;
 }
 
+@font-face {
+  font-family: indie;
+  src: url(indieflower-regular.ttf);
+}
+
+@font-face {
+  font-family: rale;
+  src: url(raleway-variablefont_wght.ttf);
+}
+
+@font-face {
+  font-family: goblin;
+  src: url(goblinone-regular.ttf);
+}
+
 h1 {
   margin: 0px;
-  color: red;
-  font-family: lobster;
+  color: #2f7ed0;
+  font-family: indie;
   font-size: 750%;
   text-align: center;
 }
 
-p {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #b44d4b;
-  font-family: lobster;
+h2 {
+  text-align: center; 
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+  color: #4d85b2; 
+  font-family: rale; 
   font-size: 250%;
 }
 
@@ -34,4 +51,11 @@ p {
   color: black;
   font-family: lobster;
   justify-content: space-around;
+}
+
+.carousel-inner {
+  font-family: goblin;
+  margin-left: 500px;
+  margin-right: 200px;
+  width: 300px;
 }
